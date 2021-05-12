@@ -1,6 +1,7 @@
 FROM node:14-alpine
 
 RUN apk add --no-cache \
+  util-linux \
   python \
   py-pip \
   py-setuptools \
